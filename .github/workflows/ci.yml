@@ -39,4 +39,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/cd-learning:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/cd-learning:latest
