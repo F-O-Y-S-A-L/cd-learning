@@ -1,9 +1,9 @@
 module.exports = [
   {
-    files: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
+    files: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
     rules: {
-      semi: ["error", "always"],
-      quotes: ["error", "single"],
+      semi: ['error', 'always'],
+      quotes: ['error', 'single'],
     },
   },
 ];
