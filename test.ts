@@ -5,6 +5,6 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 
 test('version message is correct', () => {
-  const message = 'Version 2';
+  const message = 'Version 7';
   assert.equal(message, 'Version 2'); 
 });
