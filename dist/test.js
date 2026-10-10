@@ -8,7 +8,7 @@ const node_test_1 = __importDefault(require("node:test"));
 // @ts-ignore Node.js type definitions may not be installed in this project.
 const strict_1 = __importDefault(require("node:assert/strict"));
 (0, node_test_1.default)('version message is correct', () => {
-    const message = 'Version 2';
+    const message = 'Version 7';
     strict_1.default.equal(message, 'Version 2');
 });
 //# sourceMappingURL=test.js.map
