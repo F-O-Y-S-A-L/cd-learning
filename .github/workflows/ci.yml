@@ -34,7 +34,7 @@ jobs:
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/cd-learning:latest
 
 
-deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: build
 
