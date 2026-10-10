@@ -6,7 +6,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^10.12.0"
+  },
   "scripts": {
     "test": "node --test",
     "start": "node server.js",
