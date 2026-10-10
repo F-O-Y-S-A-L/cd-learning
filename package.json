@@ -8,8 +8,12 @@
   "main": "server.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "node --test",
+    "start": "node server.js",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "build": "tsc --build tsconfig.json",
+    "type-check": "tsc --noEmit",
+    "verify": "npm run lint && npm run type-check && npm run build"
   },
   "keywords": [],
   "author": "",
