@@ -12,11 +12,13 @@
     "@typescript-eslint/eslint-plugin": "^8.71.1",
     "@typescript-eslint/parser": "^8.71.1",
     "eslint": "^8.57.1",
+    "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   },
   "scripts": {
     "test": "node --test",
     "start": "node dist/server.js",
+    "dev": "nodemon server.ts",
     "lint": "eslint .",
     "build": "tsc --build tsconfig.json",
     "type-check": "tsc --noEmit",
